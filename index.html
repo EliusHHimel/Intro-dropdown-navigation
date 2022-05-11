@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Section with Navigation</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left-section">
+                <div>
+                    <img src="images\logo.svg" alt="">
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" id="featuresDropbtn">Features
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="featuresDropdown">
+                        <a href="#to_do_list"><i class="fa-solid fa-clipboard-list"></i> To Do list</a>
+                        <a href="#calendar"><i class="fa-solid fa-calendar-day"></i> Calendar</a>
+                        <a href="#reminders"><i class="fa-solid fa-bell"></i> Reminders</a>
+                        <a href="#planning"><i class="fa-solid fa-clock"></i> Planning</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" id="companyDropbtn">Company
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="companyDropdown">
+                        <a href="#history">History</a>
+                        <a href="#our_team">Our Team</a>
+                        <a href="#blog">Blog</a>
+                    </div>
+                </div>
+                <a class="nav-link" href="#careers">Careers</a>
+                <a class="nav-link" href="#about">About</a>
+            </div>
+            <div class="nav-right-section">
+                <a class="nav-link" href="#login">Login</a>
+                <a class="nav-link registration-btn" href="#signup">Register</a>
+
+            </div>
+        </nav>
+    </header>
+    <!-- Intro Section -->
+    <main class="intro-container">
+        <div class="left-side-intro">
+            <h1>Make <br> remote Work</h1>
+            <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+                productivity soar.</p>
+            <br>
+            <a href="#learn-more" class="learn-more-btn">Learn More</a>
+            <div class="brand-partners">
+                <img src="images/client-databiz.svg" alt="">
+                <img src="images/client-audiophile.svg" alt="">
+                <img src="images/client-meet.svg" alt="">
+                <img src="images/client-maker.svg" alt="">
+            </div>
+        </div>
+        <div class="right-side-intro">
+            <img src="images/image-hero-desktop.png" alt="">
+        </div>
+    </main>
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
