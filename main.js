@@ -5,6 +5,7 @@ const featuresDropBtn = document.getElementById("featuresDropbtn");
 const featuresDropdown = document.getElementById("featuresDropdown");
 const companyDropBtn = document.getElementById("companyDropbtn");
 const companyDropdown = document.getElementById("companyDropdown");
+const menuIcon = document.getElementById("menu-icon");
 
 featuresDropBtn.onclick = function () {
     featuresDropdown.classList.toggle("show");
@@ -13,6 +14,9 @@ featuresDropBtn.onclick = function () {
 companyDropBtn.onclick = function () {
     companyDropdown.classList.toggle("show");
     featuresDropdown.classList.remove('show');
+}
+menuIcon.onclick = function () {
+    document.getElementById("navbar").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
